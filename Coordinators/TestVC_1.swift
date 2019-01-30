@@ -8,8 +8,10 @@
 
 import UIKit
 
-class TestVC_1: UIViewController {
+class TestVC_1: UIViewController, Storyboarded {
 
+  weak var coordinator: MainCoordinator?
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
