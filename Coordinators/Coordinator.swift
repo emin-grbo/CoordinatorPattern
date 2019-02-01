@@ -8,6 +8,10 @@
 
 import UIKit
 
+/**
+ # Protocol description here
+ */
+
 protocol Coordinator {
   var childCoordinators: [Coordinator] { get set }
   var navigationController: UINavigationController { get set }
